@@ -87,7 +87,7 @@ export default defineConfig({
     host: "0.0.0.0",
     port: 5174,
     hmr: {
-      host: "localhost", 
+      host: "localhost",
     },
   },
   build: {
@@ -98,4 +98,5 @@ export default defineConfig({
       },
     },
   },
+  base: "/",
 });
